@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/MMB0H/frontend-project-44#readme",
   "dependencies": {
-    "brain-games.js": "^0.0.1"
+    "brain-games.js": "^0.0.1",
+    "readline-sync": "^1.4.10"
   }
 }
