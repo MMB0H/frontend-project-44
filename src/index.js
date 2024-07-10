@@ -2,7 +2,7 @@ import readlineSync from "readline-sync";
 
 const countRaund = 3;
 const correctResultOfThisGame = "Correct!";
-const negativeResultOfThisGame = "Incorect!";
+const negativeResultOfThisGame = "wrong";
 
 export default (description, playRound) => {
   console.log("Welcome to the Brain Games!");
@@ -22,7 +22,7 @@ export default (description, playRound) => {
       console.log(`${correctResultOfThisGame}`);
     } else {
       console.log(
-        `Your answer ${userAnswer} is ${negativeResultOfThisGame} Correct answer is ${correctAnswer}.`
+        `Your answer ${userAnswer} is ${negativeResultOfThisGame} answer ;(. Correct answer is ${correctAnswer}.`
       );
       console.log(`Let's try again, ${userName}!`);
     }
