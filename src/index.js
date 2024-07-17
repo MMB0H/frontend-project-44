@@ -18,13 +18,14 @@ export default (description, playRound) => {
 
     const userAnswer = readlineSync.question("Your answer: ");
 
-    if (userAnswer === correctAnswer) {
+    if (userAnswer === correctAnswer.toString()) {
       console.log(`${correctResultOfThisGame}`);
     } else {
       console.log(
         `Your answer ${userAnswer} is ${negativeResultOfThisGame} answer ;(. Correct answer is ${correctAnswer}.`
       );
       console.log(`Let's try again, ${userName}!`);
+      return;
     }
   }
   console.log(`Congratulations, ${userName}!`);
