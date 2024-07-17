@@ -15,3 +15,6 @@ publish:
 
 lint:
 	npx eslint .
+
+brain-gcd:
+	node bin/brain-gcd.js
