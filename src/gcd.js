@@ -24,11 +24,3 @@ let playRound = () => {
 export default () => {
   game(description, playRound);
 };
-
-// function gcd(a, b) {
-//   if (!b) {
-//     return a;
-//   }
-
-//   return gcd(b, a % b);
-// }
