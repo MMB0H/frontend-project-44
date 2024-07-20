@@ -14,3 +14,7 @@ https://asciinema.org/a/bbQgwhvt4uCe0SWgt8KCXHiv2
 
 Game Brain-gcd
 https://asciinema.org/a/uGHX8zSMYeZQPa890Vu8X31Kc
+
+Game Brain-gcd
+https://asciinema.org/a/zlHRVFLYdTRYwmVUkTzDCmDWl
+https://asciinema.org/a/accdncdtH8kkxLVVLc6STtc3z
