@@ -18,3 +18,7 @@ https://asciinema.org/a/uGHX8zSMYeZQPa890Vu8X31Kc
 Game Brain-progression
 https://asciinema.org/a/zlHRVFLYdTRYwmVUkTzDCmDWl
 https://asciinema.org/a/accdncdtH8kkxLVVLc6STtc3z
+
+Game Brain-prime
+https://asciinema.org/a/XYtAsZsbXYIH6O0ePcQx6avXJ
+https://asciinema.org/a/Wx1EY3JjQFIT3PXF51CVVnjqh
