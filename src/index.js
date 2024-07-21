@@ -7,7 +7,7 @@ const negativeResultOfThisGame = "wrong";
 export default (description, playRound) => {
   console.log("Welcome to the Brain Games!");
   const user = readlineSync.question("May I have your name? ");
-  const userName = user.toUpperCase();
+  const userName = `${user[0].toUpperCase()}${user.slice(1)}`;
   console.log(`Hello, ${userName}!`);
 
   console.log(description);
@@ -22,7 +22,7 @@ export default (description, playRound) => {
       console.log(`${correctResultOfThisGame}`);
     } else {
       console.log(
-        `Your answer ${userAnswer} is ${negativeResultOfThisGame} answer ;(. Correct answer is ${correctAnswer}.`
+        `'${userAnswer}' is ${negativeResultOfThisGame} answer ;(. Correct answer was '${correctAnswer}'.`
       );
       console.log(`Let's try again, ${userName}!`);
       return;
