@@ -17,35 +17,35 @@ These are the games:
 
 ## Install
 
-clone this project from this page GitHub.
-enter comand on you computer: npm install -g @hexlet/code
+clone this project from this page GitHub.  
+Enter comand on you computer:  
+npm install -g @hexlet/code
 
 ## Run these commands from brain games directory:
 
-$ make install
-$ make publish
+$ make install  
+$ make publish  
 $ npm link
 
-Choose the game for playing:
+Choose the game for playing:  
 "make brain-games", or "make brain-prime".
 
-Game Brain-event:
-https://asciinema.org/a/hYl9IrIJXWdxEiLcskhnwoQQg
-
+Game Brain-event:  
+https://asciinema.org/a/hYl9IrIJXWdxEiLcskhnwoQQg  
 https://asciinema.org/a/pmK33NRGMWrCYWBsUiAMXYctZ
 
-Game Brain-calc:
+Game Brain-calc:  
 https://asciinema.org/a/bOuPZeSOrtdMqpSEaqokXU1j7  
 https://asciinema.org/a/bbQgwhvt4uCe0SWgt8KCXHiv2
 
-Game Brain-gcd:
+Game Brain-gcd:  
 https://asciinema.org/a/5cgaEjFyJommXHxnXNddy7Lwb  
 https://asciinema.org/a/ayWQOTNcwfrayMWFb0OrOopvq
 
-Game Brain-progression:
+Game Brain-progression:  
 https://asciinema.org/a/zlHRVFLYdTRYwmVUkTzDCmDWl  
 https://asciinema.org/a/accdncdtH8kkxLVVLc6STtc3z
 
-Game Brain-prime:
+Game Brain-prime:  
 https://asciinema.org/a/XYtAsZsbXYIH6O0ePcQx6avXJ  
 https://asciinema.org/a/Wx1EY3JjQFIT3PXF51CVVnjqh
