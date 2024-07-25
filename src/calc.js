@@ -1,12 +1,12 @@
 import game from "./index.js";
+import { getRandomInRange } from "./utils.js";
 
 const description = "What is the result of the expression?";
 const operations = ["+", "-", "*"];
 
 let playRound = () => {
-  const getNumber = () => Math.round(Math.random() * 20);
-  const number1 = getNumber();
-  const number2 = getNumber();
+  const number1 = getRandomInRange();
+  const number2 = getRandomInRange();
   let correctAnswer = 0;
   const operation = operations[Math.floor(Math.random() * operations.length)];
   const question = `${number1} ${operation} ${number2}`;

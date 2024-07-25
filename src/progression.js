@@ -1,10 +1,11 @@
 import game from "./index.js";
+import { getRandomInRange } from "./utils.js";
 
 const description = "What number is missing in the progression?";
 
 const generateProgression = (length, step, hiddenIndex) => {
   const progression = [];
-  const start = Math.round(Math.random() * 30);
+  const start = getRandomInRange();
 
   for (let i = 0; i < length; i++) {
     progression.push(start + i * step);

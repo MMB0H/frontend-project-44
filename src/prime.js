@@ -1,10 +1,11 @@
 import game from "./index.js";
+import { getRandomInRange } from "./utils.js";
 
 const description =
   'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 let playRound = () => {
-  const number = Math.round(Math.random() * 100);
+  const number = getRandomInRange();
   const question = `${number}`;
 
   const isPrime = (number) => {
@@ -13,15 +14,12 @@ let playRound = () => {
     }
     for (let i = 2; i < number; i += 1) {
       if (number % i === 0) {
-        // Не включая само число
         return "no";
       }
     }
 
     return "yes";
   };
-  //   return number;
-  // };
   const correctAnswer = isPrime(number);
   return [question, correctAnswer];
 };

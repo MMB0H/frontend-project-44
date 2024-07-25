@@ -1,11 +1,11 @@
 import game from "./index.js";
+import { getRandomInRange } from "./utils.js";
 
 const description = "Find the greatest common divisor of given numbers.";
 
 let playRound = () => {
-  const getNumber = () => Math.round(Math.random() * 100);
-  const number1 = getNumber();
-  const number2 = getNumber();
+  const number1 = getRandomInRange();
+  const number2 = getRandomInRange();
 
   const question = `${number1} ${number2}`;
 
