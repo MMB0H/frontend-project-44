@@ -6,29 +6,40 @@
 
 # Welcome to my first project in Hexlet "Brain Games"!
 
-In this project I implemented 5 math games based on javaScript.
+In this project were implemented 5 math games based on javaScript.
+Each game asks questions based on mathematics, and you need to think and answer correctly. You can win by answering correctly three times. Otherwise, start the game again.
+
 These are the games:
 
-1. brain-even: whether the number is even or odd.
-2. brain-calc: Find result of the expression.
-3. brain-gcd: Need to find the greatest common divisor.
-4. brain-progression: Find missing number in the arithmetic progression.
-5. brain-prime: whether the number is prime or not.
+1. Even number: whether the number is even or odd.
+2. Calculator: Find result of the expression.
+3. Gcd: Need to find the greatest common divisor.
+4. Progression: Find missing number in the arithmetic progression.
+5. Prime number: whether the number is prime or not.
 
 ## Install
 
-clone this project from this page GitHub.  
-Enter comand on you computer:  
-npm install -g @hexlet/code
+You need to have node.js installed. To check your node.js version, use the command node -v.
 
-## Run these commands from brain games directory:
+1. Clone repository from this page GitHub.  
+   https://github.com/MMB0H/frontend-project-44.git
+2. Enter comand on you computer:  
+   npm install -g @hexlet/code
+3. Run these commands from brain games directory:  
+   make install  
+   make publish  
+   npm link
 
-$ make install  
-$ make publish  
-$ npm link
+## Usage
 
 Choose the game for playing:  
-"make brain-games", or "make brain-prime".
+make brain-calc  
+make brain-progression  
+make brain-even  
+make brain-gcd  
+make brain-prime
+
+## Example:
 
 Game Brain-event:  
 https://asciinema.org/a/hYl9IrIJXWdxEiLcskhnwoQQg  
@@ -49,3 +60,5 @@ https://asciinema.org/a/accdncdtH8kkxLVVLc6STtc3z
 Game Brain-prime:  
 https://asciinema.org/a/XYtAsZsbXYIH6O0ePcQx6avXJ  
 https://asciinema.org/a/Wx1EY3JjQFIT3PXF51CVVnjqh
+
+Have Fun!!!
