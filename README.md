@@ -19,15 +19,12 @@ These are the games:
 
 ## Install
 
-You need to have node.js installed. To check your node.js version, use the command node -v.
-
-1. Clone repository from this page GitHub.  
-   https://github.com/MMB0H/frontend-project-44.git
-2. Enter comand on you computer:  
-   npm install -g @hexlet/code
-3. Run these commands from brain games directory:  
-   make install  
-   make publish  
+1. Clone repository from this page GitHub to your computer:  
+   git clone https://github.com/MMB0H/frontend-project-44.git
+2. Enter in directory on your computer:  
+   cd frontend-project-44
+3. Run these commands from directory:  
+   npm install  
    npm link
 
 ## Usage
