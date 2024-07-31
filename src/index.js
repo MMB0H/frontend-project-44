@@ -18,7 +18,7 @@ export default (description, playRound) => {
 
     const userAnswer = readlineSync.question("Your answer: ");
 
-    if (userAnswer === correctAnswer.toString()) {
+    if (userAnswer === correctAnswer) {
       console.log(`${correctResultOfThisGame}`);
     } else {
       console.log(
