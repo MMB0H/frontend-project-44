@@ -6,12 +6,12 @@ const description =
 
 const isEven = (number) => number % 2 === 0;
 
-const playRound = () => {
+const generateRound = () => {
   const number = getRandomInRange();
-  const correctAnswer = isEven(number) ? "yes" : "no";
-  return [number, correctAnswer];
+  const answer = String(isEven(number) ? "yes" : "no");
+  return [number, answer];
 };
 
 export default () => {
-  game(description, playRound);
+  game(description, generateRound);
 };

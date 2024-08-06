@@ -17,20 +17,24 @@ const generateProgression = (length, step, hiddenIndex) => {
   return { progression, hiddenNumber };
 };
 
-const playRound = () => {
-  const length = 10; // Длина прогрессии
-  const step = Math.round(Math.random() * 5); // Шаг прогрессии
-  const hiddenIndex = Math.round(Math.random() * length); // Индекс скрытого числа
+const gameParameters = (length) => {
+  const step = Math.round(Math.random() * 5);
+  const hiddenIndex = Math.round(Math.random() * length);
+  return { step, hiddenIndex };
+};
 
+const playRound = () => {
+  const length = 10;
+  const { step, hiddenIndex } = gameParameters(length);
   const { progression, hiddenNumber } = generateProgression(
     length,
     step,
     hiddenIndex
   );
-  let correctAnswer = hiddenNumber;
+  let answer = String(hiddenNumber);
   let question = `${progression}`;
 
-  return [question, correctAnswer];
+  return [question, answer];
 };
 
 export default () => {
