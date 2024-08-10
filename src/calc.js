@@ -14,8 +14,10 @@ const calculation = (num1, num2, operator) => {
       return num1 + num2;
     case "-":
       return num1 - num2;
-    default:
+    case "*":
       return num1 * num2;
+    default:
+      throw new Error(`Invalid operator - ${operator}`);
   }
 };
 
@@ -24,7 +26,7 @@ const generateRound = () => {
   const number2 = getRandomInRange();
   const operator = getRandomOperator();
   const question = `${number1} ${operator} ${number2}`;
-  const answer = String(calculation(number1, number2, operator));
+  const answer = String(calculation(number1, operator, number2));
 
   return [question, answer];
 };

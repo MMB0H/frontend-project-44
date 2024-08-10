@@ -6,20 +6,20 @@ const description =
 
 const isPrime = (number) => {
   if (number <= 1) {
-    return "no";
+    return false;
   }
   for (let i = 2; i < number; i += 1) {
     if (number % i === 0) {
-      return "no";
+      return false;
     }
   }
-  return "yes";
+  return true;
 };
 
 let generateRound = () => {
   const number = getRandomInRange();
   const question = `${number}`;
-  const answer = String(isPrime(number));
+  const answer = String(isPrime(number) ? "yes" : "no");
   return [question, answer];
 };
 
