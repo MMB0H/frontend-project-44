@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import even from "../src/iseven.js";
+import even from '../src/iseven.js';
 
 even();

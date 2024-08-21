@@ -1,8 +1,7 @@
-import game from "./index.js";
-import { getRandomInRange } from "./utils.js";
+import game from './index.js';
+import { getRandomInRange } from './utils.js';
 
-const description =
-  'Answer "yes" if given number is prime. Otherwise answer "no".';
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (number) => {
   if (number <= 1) {
@@ -16,10 +15,10 @@ const isPrime = (number) => {
   return true;
 };
 
-let generateRound = () => {
+const generateRound = () => {
   const number = getRandomInRange();
   const question = `${number}`;
-  const answer = String(isPrime(number) ? "yes" : "no");
+  const answer = String(isPrime(number) ? 'yes' : 'no');
   return [question, answer];
 };
 
