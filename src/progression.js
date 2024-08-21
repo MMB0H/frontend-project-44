@@ -19,7 +19,7 @@ const playRound = () => {
   const hiddenIndex = getRandomInRange(0, length - 1);
   const answer = String(progression[hiddenIndex]);
   progression[hiddenIndex] = "..";
-  const question = progression.join(",");
+  const question = progression.join(" ");
   return [question, answer];
 };
 
