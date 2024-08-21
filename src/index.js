@@ -21,7 +21,7 @@ export default (description, playRound) => {
       console.log(`${correctResultOfThisGame}`);
     } else {
       console.log(
-        `${userAnswer} is ${negativeResultOfThisGame} answer ;(. Correct answer was ${correctAnswer}.`
+        `${userAnswer} is ${negativeResultOfThisGame} answer ;(. Correct answer was ${correctAnswer}.`,
       );
       console.log(`Let's try again, ${userName}!`);
       return;
